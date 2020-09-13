@@ -52,7 +52,7 @@ class Student {
 
 const fanny = new Student('Fanny', 21, '3 Juni 1999', 'Female', '0072020017', 'Traveling');
 fanny.setName = 'Danny';
-fanny.setGender = 'boy'
+fanny.setGender = 'male'
 fanny.setAge = 10;
 fanny.setId = "djfhak";
 console.log(fanny.name)
