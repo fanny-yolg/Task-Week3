@@ -14,7 +14,7 @@ class Army{
             this.level = 10;
         }             
     }
-}    
+};    
     
 class Knight extends Army{
     constructor(name,type,level){
@@ -24,7 +24,7 @@ class Knight extends Army{
         super.talk()
         console.log(`Knight will take the front position`);
     }
-}
+};
 
 
 class Spearman extends Army{
@@ -35,7 +35,7 @@ class Spearman extends Army{
         super.talk()
         console.log(`Spearman will take the spear to win the war`);
     }
-}
+};
 
 class Archer extends Army{
     constructor(name,type,level){
@@ -45,10 +45,10 @@ class Archer extends Army{
         super.talk()
         console.log(`Archer will take the arrow to win the war`);
     }
-}
+};
 
 module.exports = {
     Knight : Knight,
     Spearman : Spearman,
     Archer: Archer 
-}
+};
